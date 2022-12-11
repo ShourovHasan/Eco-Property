@@ -16,7 +16,7 @@ const RentHouseCard = ({ house, setShowModal, setCurrentHouse }) => {
           <p>{house.size}</p>
           <p className="font-bold">Location: {house.location}</p>
           <p>{house.description}</p>
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-center">
             <label
               className="btn btn-info"
               onClick={() => {

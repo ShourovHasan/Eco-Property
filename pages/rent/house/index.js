@@ -19,16 +19,13 @@ const RentHouse = () => {
     },
     {
       id: "2",
-      title: "Flat For Single Family",
-      size: "3 bed ,3 bath, 1,381sqft",
-      description: ` Come look at this beautiful two-story home nestled in a cul- de-sac,
-            conveniently located between highway 90 & 410, only minutes away
-            from Lackland AFB! This home features an open floor plan with all
-            bedrooms & laundry room upstairs! Available for immediate move in,
-            contact us today to schedule your showing!`,
-      price: "$1,750/month",
-      location: "7516 Bowdre, San Antonio, TX 78252",
-      image: "/images/flat-2.jpeg",
+      title: "Duplex House For Rent",
+      size: "2 bed, 1  bath, 2,146sqft",
+      description: `Warm 2 bedroom 1st-floor apartment in a duplex located in a lovely community. Unique offerings- full basement for storage use and laundry room; property parking space in the back of the house; front and back porch; front and back access. The home has a huge living room/family roof off of a galley-type kitchen.
+      `,
+      price: "$1,350/month",
+      location: "122 Summit Ave, Phillipsburg, NJ 08865",
+      image: "/images/house-2.png",
     },
   ];
 
@@ -37,7 +34,7 @@ const RentHouse = () => {
       <Navbar></Navbar>
       <div
         className="hero min-h-screen mb-5"
-        style={{ backgroundImage: `url("/images/flat.png")` }}
+        style={{ backgroundImage: `url("/images/house.jpeg")` }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">

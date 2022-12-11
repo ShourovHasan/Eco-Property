@@ -16,7 +16,7 @@ const RentFlatCard = ({ flat, setShowModal, setCurrentFlat }) => {
           <p>{flat.size}</p>
           <p className="font-bold">Location: {flat.location}</p>
           <p>{flat.description}</p>
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-center">
             <label
               className="btn btn-info"
               onClick={() => {
