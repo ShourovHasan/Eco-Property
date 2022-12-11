@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../../components/Nevbar/Navbar";
+import Navbar from "../../../components/Nevbar/Navbar";
 import RentFlatCard from "./flat-card";
 import FlatModal from "./flat-modal";
 

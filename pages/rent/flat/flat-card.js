@@ -1,5 +1,3 @@
-import Navbar from "../../components/Nevbar/Navbar";
-
 const RentFlatCard = ({ flat, setShowModal, setCurrentFlat }) => {
   return (
     <div>
