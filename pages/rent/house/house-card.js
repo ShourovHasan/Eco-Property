@@ -10,7 +10,7 @@ const RentHouseCard = ({ house, setShowModal, setCurrentHouse }) => {
         <div className="card-body">
           <h2 className="card-title">
             {house.title}
-            <div className="badge badge-secondary">NEW</div>
+            <div className="badge badge-warning">NEW</div>
           </h2>
           <p className="font-bold">{house.price}</p>
           <p>{house.size}</p>
@@ -28,7 +28,7 @@ const RentHouseCard = ({ house, setShowModal, setCurrentHouse }) => {
               Details
             </label>
 
-            <button className="btn btn-success">Book Now</button>
+            <button className="btn btn-warning">Book Now</button>
           </div>
         </div>
       </div>

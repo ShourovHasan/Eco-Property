@@ -14,7 +14,7 @@ const RentHouse = () => {
       description: `This 3 bedroom home has over 1100 sq.boasts beautiful bronze/black accents, new carpet, fresh paint, open and spacious living areas, eat in kitchen, and spacious detached 2 car garage. Move right in to this warm and inviting home. Kitchen has all stainless steel appliances, deep farmer sink, and plenty of cabinet and counter top space.`,
 
       price: "$1,300/month",
-      location: "690 Eva Ave, Akron, OH 44306",
+      location: "Dhaka,Gulshan",
       image: "/images/house-1.png",
     },
     {
@@ -24,8 +24,28 @@ const RentHouse = () => {
       description: `Warm 2 bedroom 1st-floor apartment in a duplex located in a lovely community. Unique offerings- full basement for storage use and laundry room; property parking space in the back of the house; front and back porch; front and back access. The home has a huge living room/family roof off of a galley-type kitchen.
       `,
       price: "$1,350/month",
-      location: "122 Summit Ave, Phillipsburg, NJ 08865",
+      location: "Shylet",
       image: "/images/house-2.png",
+    },
+    {
+      id: "3",
+      title: "House For Single Family",
+      size: "2 bed, 1  bath, 2,000sqft",
+      description: `Warm 2 bedroom 1st-floor apartment in a duplex located in a lovely community. Unique offerings- full basement for storage use and laundry room; property parking space in the back of the house; front and back porch; front and back access. The home has a huge living room/family roof off of a galley-type kitchen.
+      `,
+      price: "$1,450/month",
+      location: "chittagong",
+      image: "/images/house-3.png",
+    },
+    {
+      id: "4",
+      title: "Duplex House For Rent",
+      size: "2 bed, 1  bath, 2,146sqft",
+      description: `Warm 2 bedroom 1st-floor apartment in a duplex located in a lovely community. Unique offerings- full basement for storage use and laundry room; property parking space in the back of the house; front and back porch; front and back access. The home has a huge living room/family roof off of a galley-type kitchen.
+      `,
+      price: "$1600/month",
+      location: "Dhaka,Banani",
+      image: "/images/house-4.png",
     },
   ];
 
@@ -42,7 +62,7 @@ const RentHouse = () => {
             <p className="mb-5 text-2xl font-bold">
               Discover your perfect House, Search nearby House for rent
             </p>
-            <button className="btn btn-success">Get Started</button>
+            <button className="btn btn-warning">Explore</button>
           </div>
         </div>
       </div>

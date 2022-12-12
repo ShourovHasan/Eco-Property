@@ -10,7 +10,7 @@ const RentFlatCard = ({ flat, setShowModal, setCurrentFlat }) => {
         <div className="card-body">
           <h2 className="card-title">
             {flat.title}
-            <div className="badge badge-secondary">NEW</div>
+            <div className="badge badge-warning">NEW</div>
           </h2>
           <p className="font-bold">{flat.price}</p>
           <p>{flat.size}</p>
@@ -28,7 +28,7 @@ const RentFlatCard = ({ flat, setShowModal, setCurrentFlat }) => {
               Details
             </label>
 
-            <button className="btn btn-success">Book Now</button>
+            <button className="btn btn-warning">Book Now</button>
           </div>
         </div>
       </div>
