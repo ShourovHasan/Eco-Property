@@ -3,7 +3,7 @@ const RentFlatCard = ({ flat, setShowModal, setCurrentFlat }) => {
     <div>
       {/* -----------flat card start----------- */}
 
-      <div className="card bg-base-100 shadow-xl">
+      <div className="shadow-xl card bg-base-100">
         <figure>
           <img className="max-h-[230px]" src={flat.image} alt="flat" />
         </figure>
@@ -16,7 +16,7 @@ const RentFlatCard = ({ flat, setShowModal, setCurrentFlat }) => {
           <p>{flat.size}</p>
           <p className="font-bold">Location: {flat.location}</p>
           <p>{flat.description}</p>
-          <div className="card-actions justify-end">
+          <div className="justify-end card-actions">
             <label
               className="btn btn-info"
               onClick={() => {
