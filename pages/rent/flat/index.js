@@ -1,7 +1,11 @@
-import Navbar from "../../components/Nevbar/Navbar";
+import { useState } from "react";
+import Navbar from "../../../components/Navbar/Navbar";
 import RentFlatCard from "./flat-card";
+import FlatModal from "./flat-modal";
 
 const RentFlat = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [currentFlat, setCurrentFlat] = useState(null);
   const flatData = [
     {
       id: "1",
@@ -51,9 +55,18 @@ const RentFlat = () => {
       <div>
         <div class="grid grid-cols-4 gap-4">
           {flatData.map((flat) => (
-            <RentFlatCard flat={flat}></RentFlatCard>
+            <RentFlatCard
+              setShowModal={setShowModal}
+              setCurrentFlat={setCurrentFlat}
+              flat={flat}
+            ></RentFlatCard>
           ))}
         </div>
+        {showModal ? (
+          <FlatModal setShowModal={setShowModal} flat={currentFlat}></FlatModal>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
