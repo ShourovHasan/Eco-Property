@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../../../components/Navbar/Navbar";
+import Navbar from "../../../components/Nevbar/Navbar";
 import RentHouseCard from "./house-card";
 import HouseModal from "./house-modal";
 
