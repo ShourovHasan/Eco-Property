@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "../../../components/Navbar/Navbar";
 import RentFlatCard from "./flat-card";
 import FlatModal from "./flat-modal";
+import Footer from "../../../components/Footer/Footer";
 
 const RentFlat = () => {
   const [showModal, setShowModal] = useState(false);
@@ -91,6 +92,8 @@ const RentFlat = () => {
           ""
         )}
       </div>
+      <Footer></Footer>
+
     </div>
   );
 };

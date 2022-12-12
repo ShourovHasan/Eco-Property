@@ -1,7 +1,8 @@
 import { useState } from "react";
-import Navbar from "../../../components/Nevbar/Navbar";
+import Navbar from "../../../components/Navbar/Navbar";
 import RentHouseCard from "./house-card";
 import HouseModal from "./house-modal";
+import Footer from "../../../components/Footer/Footer";
 
 const RentHouse = () => {
   const [showModal, setShowModal] = useState(false);
@@ -85,6 +86,8 @@ const RentHouse = () => {
           ""
         )}
       </div>
+      <Footer></Footer>
+
     </div>
   );
 };
