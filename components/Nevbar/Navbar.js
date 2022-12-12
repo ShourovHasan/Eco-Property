@@ -44,13 +44,13 @@ const Navbar = () => {
         </a>
         <ul className="p-2">
           <li>
-            <a href="/flatSale">Flat</a>
+            <a href="/sale/flat">Flat</a>
           </li>
           <li>
-            <a href="/houseSale">House</a>
+            <a href="/sale/house">House</a>
           </li>
           <li>
-            <a href="/plotSale">Plot</a>
+            <a href="/sale/plot">Plot</a>
           </li>
         </ul>
       </li>
