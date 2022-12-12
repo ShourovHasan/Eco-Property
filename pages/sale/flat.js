@@ -1,4 +1,4 @@
-import Navbar from "../../components/Nevbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import SellCard from "../shared/card";
 import SellModal from "../shared/sellModal";
 
