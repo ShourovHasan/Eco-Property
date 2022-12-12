@@ -44,13 +44,13 @@ const Navbar = () => {
         </a>
         <ul className="p-2">
           <li>
-            <a href="/flatSale">Flat</a>
+            <a href="/sale/flat">Flat</a>
           </li>
           <li>
-            <a href="/houseSale">House</a>
+            <a href="/sale/house">House</a>
           </li>
           <li>
-            <a href="/plotSale">Plot</a>
+            <a href="/sale/plot">Plot</a>
           </li>
         </ul>
       </li>
@@ -80,24 +80,24 @@ const Navbar = () => {
         </ul>
       </li>
       <li>
-        <a>Blog</a>
+        <a href="/blog">Blog</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/about">About</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="/contact">Contact</a>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="w-5 h-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -112,15 +112,15 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
           >
             {menuItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Eco Property</a>
+        <a className="text-xl normal-case btn btn-ghost">Eco Property</a>
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+      <div className="hidden navbar-center lg:flex">
+        <ul className="px-1 menu menu-horizontal">
           {/* <li><a>Item 1</a></li> */}
           {menuItems}
         </ul>

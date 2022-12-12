@@ -3,7 +3,7 @@ const RentFlatCard = ({ flat, setShowModal, setCurrentFlat }) => {
     <div>
       {/* -----------flat card start----------- */}
 
-      <div className="card bg-base-100 shadow-xl">
+      <div className="shadow-xl card bg-base-100">
         <figure>
           <img className="max-h-[230px]" src={flat.image} alt="flat" />
         </figure>
