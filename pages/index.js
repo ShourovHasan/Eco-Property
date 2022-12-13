@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import { Toaster } from 'react-hot-toast'
 import Footer from '../components/Footer/Footer'
 import Advertise from '../components/Home/Advertise/Advertise'
 import Banner from '../components/Home/Banner/Banner'
@@ -10,9 +9,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Navbar></Navbar>
-      <Advertise></Advertise>
       <Banner></Banner>
+      <Advertise></Advertise>
       <Footer></Footer>
+      <Toaster />
     </div>
   )
 }

@@ -1,3 +1,5 @@
+import navbar from '../../styles/Navbar.module.css';
+
 const Navbar = () => {
   const menuItems = (
     <>
@@ -6,7 +8,7 @@ const Navbar = () => {
       </li>
       <li tabIndex={0}>
         <a className="justify-between">
-          Rent
+          <span>Rent</span>
           <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +19,7 @@ const Navbar = () => {
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
           </svg>
         </a>
-        <ul className="p-2">
+        <ul className="p-2 bg-slate-200">
           <li>
             <a href="/rent/flat">Flat</a>
           </li>
@@ -42,7 +44,7 @@ const Navbar = () => {
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
           </svg>
         </a>
-        <ul className="p-2">
+        <ul className="p-2 bg-slate-200">
           <li>
             <a href="/sale/flat">Flat</a>
           </li>
@@ -67,7 +69,7 @@ const Navbar = () => {
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
           </svg>
         </a>
-        <ul className="p-2">
+        <ul className="p-2 bg-slate-200">
           <li>
             <a href="/flatLoan">Flat</a>
           </li>
@@ -117,7 +119,7 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <a className="text-xl normal-case btn btn-ghost">Eco Property</a>
+        <a href='/' className="text-xl normal-case btn btn-ghost">Eco Property</a>
       </div>
       <div className="hidden navbar-center lg:flex">
         <ul className="px-1 menu menu-horizontal">
@@ -125,8 +127,8 @@ const Navbar = () => {
           {menuItems}
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Get started</a>
+      <div className={`navbar-end `}>
+        <a className={navbar.btn_navbar}>Login</a>
       </div>
     </div>
   );

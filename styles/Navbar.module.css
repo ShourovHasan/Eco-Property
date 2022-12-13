@@ -1,0 +1,53 @@
+.btn_navbar{
+    padding: 10px  20px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #d5d5d5, #fefefe);
+    box-shadow: 5px 5px 10px #5f5f5f,
+        -5px -5px 10px #ffffff;
+
+    transition: 2s;
+}
+.btn_navbar:hover{
+    background: #f44e4e;
+    color: #ebeaea;
+    cursor: pointer;
+}
+.contact{
+    padding: 10px  20px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #d5d5d5, #fefefe);
+    box-shadow: 5px 5px 10px #5f5f5f,
+        -5px -5px 10px #ffffff;
+
+    transition: 2s;
+}
+.contact:hover{
+    background: #c2c2c2;
+}
+.about{
+    padding: 10px  20px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #d5d5d5, #fefefe);
+    box-shadow: 5px 5px 10px #5f5f5f,
+        -5px -5px 10px #ffffff;
+
+    transition: 2s;
+}
+.about:hover{
+    background: #e1e0e0;
+}
+.btn_big{
+    padding: 10px  30px;
+    border-radius: 11px;
+    border-radius: 11px;
+    background: #ededed;
+    box-shadow: 5px 5px 10px #5f5f5f,
+        -5px -5px 10px #ffffff;
+
+    transition: 2s;
+}
+.btn_big:hover{
+    background: #f44e4e;
+    color: #ebeaea;
+    cursor: pointer;
+}

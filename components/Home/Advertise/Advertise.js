@@ -1,6 +1,8 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import navbar from '../../../styles/Navbar.module.css';
+
 
 const Advertise = () => {
 
@@ -86,7 +88,7 @@ const Advertise = () => {
         ]
     };
     return (
-        <div className='w-full mx-auto my-20 lg:w-4/5'>
+        <div className='w-full mx-auto my-20'>
             <div>
                 <Slider {...settings}>
                     {
@@ -99,8 +101,10 @@ const Advertise = () => {
                                         <p className="font-bold">{advertisedItem.price}</p>
                                         <p>{advertisedItem.size}</p>
                                         <p className="font-bold">Location: {advertisedItem.location}</p>
+                                        <div className="mx-auto mt-10 text-xl">
+                                            <button className={navbar.btn_big }>See Details</button>
+                                        </div>
                                     </div>
-                                    <button className="w-2/3 mx-auto btn btn-success">See Details</button>
                                 </div>
                             </div>
                         )
